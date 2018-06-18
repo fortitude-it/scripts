@@ -1,0 +1,2 @@
+#pull in all latest code changes every minute
+*/1 * * * *  pull-all.sh >> /var/log/git-cron/git-cron.log 2>&1
