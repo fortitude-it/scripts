@@ -1,7 +1,9 @@
 /var/log/git-cron/*log {
-    create 0644 root root    daily
+    create 0644 root root
+    daily
     rotate 10
-    missingok    notifempty
+    missingok
+    notifempty
     sharedscripts
     delaycompress
     endscript
